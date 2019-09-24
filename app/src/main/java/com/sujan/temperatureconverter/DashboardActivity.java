@@ -38,8 +38,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         }
 
         if(v.getId()==R.id.btnSum){
-            Intent intent= new Intent(DashboardActivity.this,MainActivity.class);
-           startActivity(intent);
         }
 
     }
