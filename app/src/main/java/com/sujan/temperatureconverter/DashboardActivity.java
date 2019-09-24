@@ -31,7 +31,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View v) {
 
-        //Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
+
         if(v.getId()==R.id.btnCal){
             Intent intent= new Intent(DashboardActivity.this,MainActivity.class);
             startActivity(intent);
